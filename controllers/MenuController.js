@@ -70,7 +70,7 @@ module.exports = class MenuController {
         );
       }
       this.main();
-    }).catch(err) => {
+    }).catch((err) => {
       console.log(err);
       this.main();
     });
