@@ -10,7 +10,7 @@ module.exports = class MenuController {
           message: "Please choose from an option below:",
           choices: [
             "Add new contact",
-               "View all contacts",
+            "View all contacts",
             "Exit"
           ]
       }
@@ -65,7 +65,6 @@ module.exports = class MenuController {
           console.log(`
           name: ${contact.name}
           phone number: ${contact.phone}
-          email: ${contact.email}
           ---------------`
         );
       }
